@@ -1,8 +1,8 @@
-# import lib
+# imports
 import requests
 import time
 
-# Endpoint
+# Set up
 from win10toast import ToastNotifier # notifier
 toaster = ToastNotifier()
 URL = "https://www.newworld.com/es-es/support/server-status"
